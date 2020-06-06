@@ -31,8 +31,10 @@ def cobra(COBRAXY):
 	for XY in COBRAXY:
 		pygame.draw.rect(fundo, red, [XY[0],XY[1],tamanho,tamanho])
 
+
 def maca(maca_x,maca_y):
 	pygame.draw.rect(fundo, preto, [maca_x,maca_y,tamanho,tamanho])
+
 
 def jogo():
 	
@@ -107,6 +109,8 @@ def jogo():
 		pygame.display.update()
 		relogio.tick(frame) #defini a quantidade de frame que o jogo tem
 
+
 jogo()
+
 
 pygame.quit()
