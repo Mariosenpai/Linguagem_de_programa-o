@@ -1,0 +1,7 @@
+start == abrir alguma arquivo
+lua == abrir um arquivo em lua
+cd == abrir uma pasta
+cd\ == volta para o disco C
+cd../== volta para pasta anterior
+dir==visualizar oq tem dentro da pasta
+start lua == abrir o terminal do lua
