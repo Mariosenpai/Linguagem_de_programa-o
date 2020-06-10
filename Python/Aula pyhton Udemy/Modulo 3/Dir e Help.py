@@ -11,3 +11,5 @@ para determinado tipo de dado ou variável
 help(tipo de dado/variável.propriedade)
 
 """
+nome="mar"
+print(nome.title)
